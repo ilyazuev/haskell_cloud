@@ -1,0 +1,1 @@
+./dist/build/cloud-haskell/cloud-haskell.exe traveller localhost 8086

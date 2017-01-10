@@ -1,0 +1,42 @@
+
+stack C:\Users\Zuev\Dropbox\share_zuev\Haskell\mena\cmd\cloud_haskell\time_travels_sandbox\ local-install-root
+
+Usage: stack.exe path [--stack-root] [--project-root] [--config-location]
+                      [--bin-path] [--programs] [--compiler-exe]
+                      [--compiler-bin] [--local-bin] [--extra-include-dirs]
+                      [--extra-library-dirs] [--snapshot-pkg-db]
+                      [--local-pkg-db] [--global-pkg-db] [--ghc-package-path]
+                      [--snapshot-install-root] [--local-install-root]
+                      [--snapshot-doc-root] [--local-doc-root] [--dist-dir]
+                      [--local-hpc-root] [--local-bin-path] [--ghc-paths]
+                      [--global-stack-root] [--help]
+  Print out handy path information
+
+Available options:
+  --stack-root             Global stack root directory
+  --project-root           Project root (derived from stack.yaml file)
+  --config-location        Configuration location (where the stack.yaml file is)
+  --bin-path               PATH environment variable
+  --programs               Install location for GHC and other core tools
+  --compiler-exe           Compiler binary (e.g. ghc)
+  --compiler-bin           Directory containing the compiler binary (e.g. ghc)
+  --local-bin              Local bin dir where stack installs executables (e.g.
+                           ~/.local/bin)
+  --extra-include-dirs     Extra include directories
+  --extra-library-dirs     Extra library directories
+  --snapshot-pkg-db        Snapshot package database
+  --local-pkg-db           Local project package database
+  --global-pkg-db          Global package database
+  --ghc-package-path       GHC_PACKAGE_PATH environment variable
+  --snapshot-install-root  Snapshot installation root
+  --local-install-root     Local project installation root
+  --snapshot-doc-root      Snapshot documentation root
+  --local-doc-root         Local project documentation root
+  --dist-dir               Dist work directory
+  --local-hpc-root         Where HPC reports and tix files are stored
+  --local-bin-path         DEPRECATED: Use '--local-bin' instead
+  --ghc-paths              DEPRECATED: Use '--programs' instead
+  --global-stack-root      DEPRECATED: Use '--stack-root' instead
+  --help                   Show this help text
+
+Run 'stack --help' for global options that apply to all subcommands.

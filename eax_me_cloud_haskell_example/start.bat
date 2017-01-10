@@ -1,0 +1,1 @@
+./dist/build/eax-me-cloud-haskell-example/eax-me-cloud-haskell-example.exe

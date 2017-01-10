@@ -1,0 +1,95 @@
+Usage: stack.exe build [TARGET] [--dry-run] [--pedantic] [--fast]
+                       [--ghc-options OPTION] [--flag PACKAGE:[-]FLAG]
+                       ([--dependencies-only] | [--only-snapshot] |
+                       [--only-dependencies]) ([--file-watch] |
+                       [--file-watch-poll]) [--exec CMD [ARGS]]
+                       [--only-configure] [--trace] [--profile]
+                       [--[no-]library-profiling] [--[no-]executable-profiling]
+                       [--[no-]haddock] [--haddock-arguments HADDOCK_ARGS]
+                       [--[no-]open] [--[no-]haddock-deps] [--[no-]copy-bins]
+                       [--[no-]prefetch] [--[no-]keep-going]
+                       [--[no-]force-dirty] [--[no-]test] [--[no-]rerun-tests]
+                       [--test-arguments TEST_ARGS] [--coverage]
+                       [--no-run-tests] [--[no-]bench]
+                       [--benchmark-arguments BENCH_ARGS] [--no-run-benchmarks]
+                       [--[no-]reconfigure] [--[no-]cabal-verbose]
+                       [--[no-]split-objs] [--help]
+  Build the package(s) in this directory/configuration
+
+Available options:
+  TARGET                   If none specified, use all packages
+  --dry-run                Don't build anything, just prepare to
+  --pedantic               Turn on -Wall and -Werror
+  --fast                   Turn off optimizations (-O0)
+  --ghc-options OPTION     Additional options passed to GHC
+  --flag PACKAGE:[-]FLAG   Override flags set in stack.yaml (applies to local
+                           packages and extra-deps)
+  --dependencies-only      A synonym for --only-dependencies
+  --only-snapshot          Only build packages for the snapshot database, not
+                           the local database
+  --only-dependencies      Only build packages that are dependencies of targets
+                           on the command line
+  --file-watch             Watch for changes in local files and automatically
+                           rebuild. Ignores files in VCS boring/ignore file
+  --file-watch-poll        Like --file-watch, but polling the filesystem instead
+                           of using events
+  --exec CMD [ARGS]        Command and arguments to run after a successful build
+  --only-configure         Only perform the configure step, not any builds.
+                           Intended for tool usage, may break when used on
+                           multiple packages at once!
+  --trace                  Enable profiling in libraries, executables, etc. for
+                           all expressions and generate a backtrace on exception
+  --profile                Enable profiling in libraries, executables, etc. for
+                           all expressions and generate a profiling report in
+                           exec or benchmarks
+  --[no-]library-profiling Enable/disable library profiling for TARGETs and all
+                           its dependencies
+  --[no-]executable-profiling
+                           Enable/disable executable profiling for TARGETs and
+                           all its dependencies
+  --[no-]haddock           Enable/disable generating Haddocks the package(s) in
+                           this directory/configuration
+  --haddock-arguments HADDOCK_ARGS
+                           Arguments passed to the haddock program
+  --[no-]open              Enable/disable opening the local Haddock
+                           documentation in the browser
+  --[no-]haddock-deps      Enable/disable building Haddocks for dependencies
+  --[no-]copy-bins         Enable/disable copying binaries to the local-bin-path
+                           (see 'stack path')
+  --[no-]prefetch          Enable/disable Fetch packages necessary for the build
+                           immediately, useful with --dry-run
+  --[no-]keep-going        Enable/disable continue running after a step fails
+                           (default: false for build, true for test/bench)
+  --[no-]force-dirty       Enable/disable Force treating all local packages as
+                           having dirty files (useful for cases where stack
+                           can't detect a file change
+  --[no-]test              Enable/disable testing the package(s) in this
+                           directory/configuration
+  --[no-]rerun-tests       Enable/disable running already successful tests
+  --test-arguments TEST_ARGS
+                           Arguments passed in to the test suite program
+  --coverage               Generate a code coverage report
+  --no-run-tests           Disable running of tests. (Tests will still be
+                           built.)
+  --[no-]bench             Enable/disable benchmarking the package(s) in this
+                           directory/configuration
+  --benchmark-arguments BENCH_ARGS
+                           Forward BENCH_ARGS to the benchmark suite. Supports
+                           templates from `cabal bench`
+  --no-run-benchmarks      Disable running of benchmarks. (Benchmarks will still
+                           be built.)
+  --[no-]reconfigure       Enable/disable Perform the configure step even if
+                           unnecessary. Useful in some corner cases with custom
+                           Setup.hs files
+  --[no-]cabal-verbose     Enable/disable Ask Cabal to be verbose in its output
+  --[no-]split-objs        Enable/disable Enable split-objs, to reduce output
+                           size (at the cost of build time). Note that this
+                           feature is EXPERIMENTAL, and its behavior may be
+                           changed and improved. You will need to clean your
+                           workdirs before use. If you want to compile all
+                           dependencies with split-objs, you will need to delete
+                           the snapshot (and all snapshots that could reference
+                           that snapshot).
+  --help                   Show this help text
+
+Run 'stack --help' for global options that apply to all subcommands.

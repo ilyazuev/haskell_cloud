@@ -1,0 +1,1 @@
+./dist/build/cloud-haskell/cloud-haskell.exe master localhost 8087
