@@ -1,0 +1,565 @@
+{
+  "info": {
+    "name": "https://github.com/vason-io/todos/blob/main/todo.xlsx",
+    "creator": "Vason Sheets",
+    "appversion": "16.0300"
+  },
+  "definedNames": null,
+  "workbook_name": "https://github.com/vason-io/todos/blob/main/todo.xlsx",
+  "workbook_cells_left": 46,
+  "workbook_cells_top": 136,
+  "default_col_width": 73,
+  "default_row_height": 19,
+  "sheets": [
+    {
+      "name": "todos",
+      "index": "todos0",
+      "status": 1,
+      "order": 0,
+      "row": 50,
+      "column": 50,
+      "defaultRowHeight": 19,
+      "defaultColWidth": 73,
+      "celldata": [
+        {
+          "r": 0,
+          "c": 0,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "small font for intro",
+            "m": "small font for intro",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "cl": 1,
+            "fc": "#999999"
+          }
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "add a notifications panel with a status icon underneath",
+            "m": "add a notifications panel with a status icon underneath",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "inserted link wrapped by default ",
+            "m": "inserted link wrapped by default ",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "not clear history (redo/undo) when saving file",
+            "m": "not clear history (redo/undo) when saving file",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 5,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "saving json to github: Error while saving: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range",
+            "m": "saving json to github: Error while saving: Failed to execute 'btoa' on 'Window': The string to be encoded contains characters outside of the Latin1 range",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "cl": 1,
+            "fc": "#999999"
+          }
+        },
+        {
+          "r": 6,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "when saving files to github and copying a branch to the input - there are 2 slashes at the end",
+            "m": "when saving files to github and copying a branch to the input - there are 2 slashes at the end",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 7,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "when pasting text to a cell the formula box shows the contents of the previous cell",
+            "m": "when pasting text to a cell the formula box shows the contents of the previous cell",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 8,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "saving to github to an organisation private repo doesn't show the repo in the explorer when the role is member (not owner)",
+            "m": "saving to github to an organisation private repo doesn't show the repo in the explorer when the role is member (not owner)",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 9,
+          "c": 1,
+          "v": {
+            "v": "adding a pipe to the instruments panel after open buttons",
+            "m": "adding a pipe to the instruments panel after open buttons",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 10,
+          "c": 1,
+          "v": {
+            "v": "combe the arrow buttons from open from github and file system into one after the second one and show local files first, then files from github",
+            "m": "combe the arrow buttons from open from github and file system into one after the second one and show local files first, then files from github",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 11,
+          "c": 1,
+          "v": {
+            "v": "link to open 'save to github' window in the 'open from github' window ",
+            "m": "link to open 'save to github' window in the 'open from github' window ",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 12,
+          "c": 1,
+          "v": {
+            "v": "add a read-only text box for errors in the github window with a copy button",
+            "m": "add a read-only text box for errors in the github window with a copy button",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 13,
+          "c": 1,
+          "v": {
+            "v": "button 'repopen file' in the header panel near the file path and in the 'more' button after save",
+            "m": "button 'repopen file' in the header panel near the file path and in the 'more' button after save",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 14,
+          "c": 1,
+          "v": {
+            "v": "add a branch icon near the branch in the github explorer",
+            "m": "add a branch icon near the branch in the github explorer",
+            "lo": 0,
+            "hi": 0,
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "fc": "#999999",
+            "cl": 1
+          }
+        },
+        {
+          "r": 15,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "add a description to the github explorer element (e.g. copy file path from GitHub explorer) to explain its use to the user",
+            "m": "add a description to the github explorer element (e.g. copy file path from GitHub explorer) to explain its use to the user",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "@",
+              "t": "s"
+            }
+          }
+        }
+      ],
+      "config": {
+        "merge": {},
+        "rowlen": {},
+        "rowhidden": null,
+        "columnlen": null,
+        "colhidden": null,
+        "borderInfo": null,
+        "authority": null,
+        "customHeight": {},
+        "customWidth": null,
+        "sheetViewZoom": {
+          "viewNormalZoomScale": 0,
+          "viewLayoutZoomScale": 0,
+          "viewPageZoomScale": 0
+        }
+      },
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "select_save": [
+        {
+          "row": [
+            14,
+            14
+          ],
+          "column": [
+            1,
+            1
+          ],
+          "row_focus": 14,
+          "column_focus": 1,
+          "left": 74,
+          "width": 73,
+          "top": 280,
+          "height": 19,
+          "left_move": 74,
+          "width_move": 73,
+          "top_move": 280,
+          "height_move": 19
+        }
+      ],
+      "conditionformat_save": [],
+      "zoomRatio": 1,
+      "showGridLines": 1,
+      "jfgird_select_save": [],
+      "ch_width": 3820,
+      "rh_height": 1080,
+      "selection_range": []
+    },
+    {
+      "name": "ideas vason sheets",
+      "index": "ideas_vason_sheets1",
+      "status": 0,
+      "order": 1,
+      "row": 50,
+      "column": 50,
+      "defaultRowHeight": 19,
+      "defaultColWidth": 73,
+      "celldata": [
+        {
+          "r": 1,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "if not our format -> open in notepad++ format",
+            "m": "if not our format -> open in notepad++ format",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "csv support",
+            "m": "csv support",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        }
+      ],
+      "config": {
+        "merge": null,
+        "rowlen": null,
+        "rowhidden": null,
+        "columnlen": null,
+        "colhidden": null,
+        "borderInfo": null,
+        "authority": null,
+        "customHeight": null,
+        "customWidth": null,
+        "sheetViewZoom": {
+          "viewNormalZoomScale": 0,
+          "viewLayoutZoomScale": 0,
+          "viewPageZoomScale": 0
+        }
+      },
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "select_save": [
+        {
+          "row": [
+            3,
+            3
+          ],
+          "column": [
+            1,
+            1
+          ],
+          "row_focus": 3,
+          "column_focus": 1
+        }
+      ],
+      "conditionformat_save": [],
+      "zoomRatio": 1,
+      "showGridLines": 1
+    },
+    {
+      "name": "ideas general",
+      "index": "ideas_general2",
+      "status": 0,
+      "order": 2,
+      "row": 50,
+      "column": 50,
+      "defaultRowHeight": 19,
+      "defaultColWidth": 73,
+      "celldata": [
+        {
+          "r": 1,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "@",
+              "t": "s"
+            }
+          }
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fc": "#0000FF",
+            "fs": 11,
+            "un": 1,
+            "tb": 1,
+            "v": "(Handle any format issues you see. Return only executable code) - Я заменил промышленный конвейер данных ИИ-агентами — и вот что из этого вышло",
+            "m": "(Handle any format issues you see. Return only executable code) - Я заменил промышленный конвейер данных ИИ-агентами — и вот что из этого вышло",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "@",
+              "t": "s"
+            }
+          }
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "create an idea bank (with e.g. wordpress)",
+            "m": "create an idea bank (with e.g. wordpress)",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "@",
+              "t": "s"
+            }
+          }
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "v": {
+            "ff": "Calibri",
+            "fs": 11,
+            "tb": 1,
+            "v": "marimo",
+            "m": "marimo",
+            "lo": 0,
+            "hi": 0,
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            }
+          }
+        }
+      ],
+      "config": {
+        "merge": null,
+        "rowlen": null,
+        "rowhidden": null,
+        "columnlen": null,
+        "colhidden": null,
+        "borderInfo": null,
+        "authority": null,
+        "customHeight": null,
+        "customWidth": null,
+        "sheetViewZoom": {
+          "viewNormalZoomScale": 0,
+          "viewLayoutZoomScale": 0,
+          "viewPageZoomScale": 0
+        }
+      },
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "select_save": [
+        {
+          "row": [
+            1,
+            1
+          ],
+          "column": [
+            1,
+            1
+          ],
+          "row_focus": 1,
+          "column_focus": 1
+        }
+      ],
+      "conditionformat_save": [],
+      "hyperlink": {
+        "2_1": {
+          "linkType": "external",
+          "linkAddress": "https://habr.com/ru/companies/bothub/articles/982082/",
+          "linkTooltip": null
+        }
+      },
+      "zoomRatio": 1,
+      "showGridLines": 1
+    }
+  ]
+}
